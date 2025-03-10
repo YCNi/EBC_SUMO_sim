@@ -13,7 +13,7 @@ This repository contains the SUMO simulation package of the E-Bike CIty project 
 - matplotlib
 
 ### Running simulation
-In config.py, you can enter information regarding traffic dynamics, driving behavioral parameters, network layout, inflow demand, and post-processing setups. The parameters of the traffic model, including effective vehicle length, free-flow speed, backward wave speed, start-up reaction time, saturation flow, also need to be defined there.
+...
 
 ### Post-processing and visualization
 The post-processing and visualization include the .... ...
