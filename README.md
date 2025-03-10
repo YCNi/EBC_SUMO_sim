@@ -5,7 +5,7 @@ Traffic Engineering Group, Institute for Transport Planning and Systems, ETH Zur
 ## Introduction
 This repository contains the SUMO simulation package of the E-Bike CIty project using the city center of Zurich as the case study site. The network is deisgned by Ballo et al. (2024)*. In the four scenarios (morning/evening, fixed-time/actuated signal control) available here, 75% of the trips are shifted from cars to bicycles. Python codes which can produce average OD travel times and network fundamental diagrams (NFDs) are also provided.
 
-* Ballo, L., Raubal, M., & Axhausen, K. W. (2024). Designing an E-Bike City: An automated process for network-wide multimodal road space reallocation. Journal of Cycling and Micromobility Research, 2, 100048.
+*Ballo, L., Raubal, M., & Axhausen, K. W. (2024). Designing an E-Bike City: An automated process for network-wide multimodal road space reallocation. Journal of Cycling and Micromobility Research, 2, 100048.
 
 ## Instructions
 
@@ -24,7 +24,7 @@ The post-processing and visualization include the .... The analysis for NFDs is 
 The codes are available in .ipynb format.
 There are also alternative (simple) ways to output NFDs and travel times by using the SUMO E3 detectors, which will be provided soon.
 
-* Leclercq, L., Chiabaut, N., & Trinquier, B. (2014). Macroscopic fundamental diagrams: A cross-comparison of estimation methods. Transportation Research Part B: Methodological, 62, 1-12.
+*Leclercq, L., Chiabaut, N., & Trinquier, B. (2014). Macroscopic fundamental diagrams: A cross-comparison of estimation methods. Transportation Research Part B: Methodological, 62, 1-12.
 
 ## To cite
 Fulton, E. J., Ni, Y. C., & Kouvelas, A. (2025). Impact of radical bike lane allocation on bi-modal urban network traffic performance: A simulation case study. SVT Working Papers. ETH Zurich.
