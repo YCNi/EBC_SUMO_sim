@@ -1,0 +1,4 @@
+<additional>
+	<laneData id="PKW" file="Sim3/laneData_25MIV_sim3_actuated.xml" period="300.0" vTypes="PKW"/>
+	<laneData id="BIKE" file="Sim3/laneData_25MIV_sim3_actuated.xml" period="300.0" vTypes="BIKE"/>
+</additional>

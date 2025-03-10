@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-05-05 14:21:15 by Eclipse SUMO sumo Version 1.19.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../Network/EBC_actuated.net.xml"/>
+		<additional-files value="../vtype.add.xml,../Network/TAZ_All_EBC.xml,laneData_config_25MIV_Sim3_actuated.xml"/>
+        <route-files value="../Trips/trips_EBC_MIV25_Sim3.xml,../Trips/trips_EBC_BIKE75_Sim3.xml"/>
+    </input>
+
+    <output>
+		<tripinfo-output value="Sim3/Sim3_25MIV_tripInfo_actuated.xml"/>
+		<tripinfo-output.write-unfinished value="True"/>
+		<tripinfo-output.write-undeparted value="True"/>
+    </output>
+
+    <time>
+        <begin value="21600"/>
+        <end value="39600"/>
+		<step-length value="1.0"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+		<lateral-resolution value="0.5"/>
+		<ignore-junction-blocker value="60"/>
+    </processing>
+	
+	<routing>
+		<device.rerouting.with-taz value="True"/>
+		<device.rerouting.probability value="1.0"/>
+		<device.rerouting.bike-speeds value="True"/>
+		<device.rerouting.period value="60"/>
+	</routing>
+
+    <fcd_device>
+        <device.fcd.probability value="1.0"/>
+    </fcd_device>
+	
+	<report>
+		<no-warnings value="True"/>
+	</report>
+
+    <random_number>
+        <seed value="1"/>
+    </random_number>
+
+</configuration>
