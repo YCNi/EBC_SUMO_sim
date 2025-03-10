@@ -37,7 +37,7 @@ There are also alternative (simple) ways to output NFDs and travel times by usin
 Fulton, E. J., Ni, Y. C., & Kouvelas, A. (2025). Impact of radical bike lane allocation on bi-modal urban network traffic performance: A simulation case study. SVT Working Papers. ETH Zurich.
 
 ## Note
-The codes are now only available for the scenario 25_MIV_75_BIKE. For other scenarios, similar codes can be applied after modifying the file names in the codes.<br />
+The codes are now only available for the scenario 25_MIV_75_BIKE. For other scenarios, the same codes can be applied after modifying the file names in the codes.<br />
 All the resources may still be constantly updated. You are strongly adviced to contact the author for instructions beforehand. For instance, the OD demand will be updated with a calibrated version soon.
 
 ## Contact information
