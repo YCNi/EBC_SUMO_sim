@@ -13,15 +13,22 @@ This repository contains the SUMO simulation package of the E-Bike CIty project 
 - sumo
 - Python 3.1
 - numpy
+- pandas
 - seaborn
 - matplotlib
 
 ### Running simulation
-... 
+There are four scenarios:
+- 25_MIV_75_BIKE
+- 25_MIV_75_BIKE
+- e_25_MIV_75_BIKE
+- e_25_MIV_75_BIKE_actuated
+The simulation can be executed by simply running the .sumocfg files in the scenario folder. There are five .sumocfg files, representing five random seeds, in each folder. <br />
+Scenarios with modal shares (75% cars, 25% bikes; 50% cars, 50% bikes) are also available by changing the route files in the .sumocfg files. The route files can be found in the "Trips" folder.
 
 ### Post-processing and visualization
-The post-processing and visualization include the .... The analysis for NFDs is based on the lane-based method introduced in ... The aggregation interval is 5 minutes.
-The codes are available in .ipynb format.
+The post-processing and visualization include the .... The analysis for NFDs is based on the lane-based method introduced in ... The aggregation interval is 5 minutes.<br />
+The codes are available in .ipynb format.<br />
 There are also alternative (simple) ways to output NFDs and travel times by using the SUMO E3 detectors, which will be provided soon.
 
 *Leclercq, L., Chiabaut, N., & Trinquier, B. (2014). Macroscopic fundamental diagrams: A cross-comparison of estimation methods. Transportation Research Part B: Methodological, 62, 1-12.
@@ -30,7 +37,7 @@ There are also alternative (simple) ways to output NFDs and travel times by usin
 Fulton, E. J., Ni, Y. C., & Kouvelas, A. (2025). Impact of radical bike lane allocation on bi-modal urban network traffic performance: A simulation case study. SVT Working Papers. ETH Zurich.
 
 ## Note
-The codes are now only available for the scenario 25_MIV_75_BIKE. For other scenarios, similar codes can be applied after modifying the file names in the codes.
+The codes are now only available for the scenario 25_MIV_75_BIKE. For other scenarios, similar codes can be applied after modifying the file names in the codes.<br />
 All the resources may still be constantly updated. You are strongly adviced to contact the author for instructions beforehand. For instance, the OD demand will be updated with a calibrated version soon.
 
 ## Contact information
