@@ -1,4 +1,4 @@
-# EBC_SUMO_sim
+# E-Bike City in SUMO
 Ellen J. Fulton, Ying-Chuan Ni <br />
 Traffic Engineering Group, Institute for Transport Planning and Systems, ETH Zurich
 
