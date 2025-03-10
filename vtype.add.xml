@@ -1,0 +1,4 @@
+<additional>
+	<vType id="PKW" vClass="passenger" carFollowModel="IDM" desiredMaxSpeed="12.5" speedFactor="normc(1.0,0.1,0.2,2.0)" accel="3.0" minGap="2.0" timeToTeleport="-1" departPos="0" lcAssertive="2.0" lcPushy="0.8" has.rerouting.device="True" device.rerouting.period="60" lcTurnAlignmentDistance="25.0"/>
+	<vType id="BIKE" vClass="bicycle" carFollowModel="IDM" desiredMaxSpeed="5.23" speedFactor="normc(1.0,0.197,0.1,2.0)" accel="1.2" minGap="0.5" timeToTeleport="60" departPos="0" lcAssertive="2.0" lcPushy="0.2" has.rerouting.device="True" device.rerouting.period="60" latAlignment="right" lcOvertakeRight="0.9" lcSpeedGain="5" lcKeepRight="1000" lcTurnAlignmentDistance="10.0"/>
+</additional>
