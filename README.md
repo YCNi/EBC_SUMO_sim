@@ -23,7 +23,8 @@ There are four scenarios:
 - 25_MIV_75_BIKE (modal share: 25% cars and 75% bicycles, morning 6-11, actuated signal control)
 - e_25_MIV_75_BIKE (modal share: 25% cars and 75% bicycles, evening 15-20, fixed-time signal control)
 - e_25_MIV_75_BIKE_actuated (modal share: 25% cars and 75% bicycles, evening 15-20, actuated signal control)
-The simulation can be executed by simply running the .sumocfg files in the scenario folder. There are five .sumocfg files, representing five random seeds, in each folder. <br />
+
+The simulation can be executed by simply running the .sumocfg files in the scenario folder. There are five .sumocfg files, representing five random seeds, in each folder. 
 
 ### Post-processing and visualization
 The post-processing and visualization include the NFDs and average OD travel times. The analysis for NFDs is based on the lane-based method introduced in Leclercq et al. (2014). The aggregation interval is 5 minutes.<br />
