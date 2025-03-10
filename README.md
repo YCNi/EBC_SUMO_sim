@@ -19,15 +19,14 @@ This repository contains the SUMO simulation package of the E-Bike CIty project 
 
 ### Running simulation
 There are four scenarios:
-- 25_MIV_75_BIKE
-- 25_MIV_75_BIKE
-- e_25_MIV_75_BIKE
-- e_25_MIV_75_BIKE_actuated
+- 25_MIV_75_BIKE (modal share: 25% cars and 75% bicycles, morning 6-11, fixed-time signal control)
+- 25_MIV_75_BIKE (modal share: 25% cars and 75% bicycles, morning 6-11, actuated signal control)
+- e_25_MIV_75_BIKE (modal share: 25% cars and 75% bicycles, evening 15-20, fixed-time signal control)
+- e_25_MIV_75_BIKE_actuated (modal share: 25% cars and 75% bicycles, evening 15-20, actuated signal control)
 The simulation can be executed by simply running the .sumocfg files in the scenario folder. There are five .sumocfg files, representing five random seeds, in each folder. <br />
-Scenarios with modal shares (75% cars, 25% bikes; 50% cars, 50% bikes) are also available by changing the route files in the .sumocfg files. The route files can be found in the "Trips" folder.
 
 ### Post-processing and visualization
-The post-processing and visualization include the .... The analysis for NFDs is based on the lane-based method introduced in ... The aggregation interval is 5 minutes.<br />
+The post-processing and visualization include the NFDs and average OD travel times. The analysis for NFDs is based on the lane-based method introduced in Leclercq et al. (2014). The aggregation interval is 5 minutes.<br />
 The codes are available in .ipynb format.<br />
 There are also alternative (simple) ways to output NFDs and travel times by using the SUMO E3 detectors, which will be provided soon.
 
