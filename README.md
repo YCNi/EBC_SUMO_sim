@@ -20,7 +20,7 @@ This repository contains the SUMO simulation package of the E-Bike CIty project 
 ### Running simulation
 There are four scenarios:
 - 25_MIV_75_BIKE (modal share: 25% cars and 75% bicycles, morning 6-11, fixed-time signal control)
-- 25_MIV_75_BIKE (modal share: 25% cars and 75% bicycles, morning 6-11, actuated signal control)
+- 25_MIV_75_BIKE_actuated (modal share: 25% cars and 75% bicycles, morning 6-11, actuated signal control)
 
 The simulation can be executed by simply running the .sumocfg files in the scenario folder. There are five .sumocfg files, representing five random seeds, in each folder. 
 
