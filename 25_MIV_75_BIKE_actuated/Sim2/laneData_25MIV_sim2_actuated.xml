@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-08-28 15:13:06 by Eclipse SUMO GUI Version 1.15.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\yingni\Documents\EBC_SUMO_sim-main\25_MIV_75_BIKE_actuated\../Network/EBC_actuated.net.xml"/>
+        <route-files value="C:\Users\yingni\Documents\EBC_SUMO_sim-main\25_MIV_75_BIKE_actuated\../Trips/trips_EBC_MIV25_Sim2.xml,C:\Users\yingni\Documents\EBC_SUMO_sim-main\25_MIV_75_BIKE_actuated\../Trips/trips_EBC_BIKE75_Sim2.xml"/>
+        <additional-files value="C:\Users\yingni\Documents\EBC_SUMO_sim-main\25_MIV_75_BIKE_actuated\../vtype.add.xml,C:\Users\yingni\Documents\EBC_SUMO_sim-main\25_MIV_75_BIKE_actuated\../Network/TAZ_All_EBC.xml,C:\Users\yingni\Documents\EBC_SUMO_sim-main\25_MIV_75_BIKE_actuated\laneData_config_25MIV_Sim2_actuated.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="C:\Users\yingni\Documents\EBC_SUMO_sim-main\25_MIV_75_BIKE_actuated\Sim2/Sim2_25MIV_tripInfo_actuated.xml"/>
+        <tripinfo-output.write-unfinished value="True"/>
+        <tripinfo-output.write-undeparted value="True"/>
+    </output>
+
+    <time>
+        <begin value="21600"/>
+        <end value="39600"/>
+        <step-length value="1.0"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.5"/>
+        <ignore-junction-blocker value="60"/>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.probability value="1.0"/>
+        <device.rerouting.period value="60"/>
+        <device.rerouting.with-taz value="True"/>
+        <device.rerouting.bike-speeds value="True"/>
+    </routing>
+
+    <report>
+        <no-warnings value="True"/>
+    </report>
+
+    <fcd_device>
+        <device.fcd.probability value="1.0"/>
+    </fcd_device>
+
+    <random_number>
+        <seed value="1385"/>
+    </random_number>
+
+</configuration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+</meandata>
